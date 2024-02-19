@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stranger Things</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./media/Favicon.png" type="image/x-icon">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- My Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-myblack fixed-top" aria-label="Fifth navbar example">
+        <div class="container-fluid px-2 px-lg-5">
+            <a class="navbar-brand txt-main stranger-font fs-2" href="#">ST</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ST-Navbar" aria-controls="ST-Navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="ST-Navbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link txt-acc" aria-current="page" href="#cardsSection">Upside-Down</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link txt-acc" href="#plot">Trama</a>
+                    </li>                    
+                    <li class="nav-item px-3 dropdown">
+                        <a class="nav-link dropdown-toggle txt-acc" href="#" data-bs-toggle="dropdown" aria-expanded="false">Stagioni</a>
+                        <ul class="dropdown-menu bg-myblack">
+                            <li><a class="dropdown-item txt-acc" href="#">Stagione 1</a></li>
+                            <li><a class="dropdown-item txt-acc" href="#">Stagione 2</a></li>
+                            <li><a class="dropdown-item txt-acc" href="#">Stagione 3</a></li>
+                            <li><a class="dropdown-item txt-acc" href="#">Stagione 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+    
+    <!-- HEADER -->
+    <header class="container-fluid marginCustom h-custom bg-header">
+        <div class="row h-75 justify-content-center align-items-center">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="my-border">
+                    <h1 class="txt-main text-center display-1">STRANGER THINGS</h1>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row h-25 align-items-center justify-content-center">
+            <div class="col-12 d-flex justify-content-center">
+                <a href="#cardsSection">
+                    <i class="fa-solid fa-chevron-down txt-main fa-3x"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    
+    <!-- SECTION CARDS -->
+    <div class="container-fluid bg-myblack myShadow paddingCustom" id="cardsSection">
+        <div class="row pb-5">
+            <div class="col-12 d-flex justify-content-center">
+                <h2 class="txt-main">THE UPSIDE DOWN</h2>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                
+                <div class="card my-5 my-md-0">
+                    <img src="./media/Demogorgone.jpg" class="card-img-top img-cards" alt="Demogorgone mostro di Stranger Things">
+                    <div class="card-body pb-4">
+                        <h5 class="card-title text-center">Demogorgone</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex, quasi fugiat mollitia odio nam...</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-custom">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card my-5 my-md-0">
+                    <img src="./media/wall-lights.jpg" class="card-img-top img-cards" alt="Luci sul muro, tratto da una scena">
+                    <div class="card-body pb-4">
+                        <h5 class="card-title text-center">Wall Lights</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex, quasi fugiat mollitia odio nam...</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-custom">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 d-flex justify-content-center">
+                <div class="card my-5 my-md-0">
+                    <img src="./media/undici.jpg" class="card-img-top img-cards" alt="Undici, una dei protagonisti">
+                    <div class="card-body pb-4">
+                        <h5 class="card-title text-center">Undici</h5>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ex, quasi fugiat mollitia odio nam...</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-custom">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECTION CARDS -->
+    
+    <!-- SECTION CAROUSEL -->
+    <div class="container-fluid min-vh-100 bg-section paddingCustom" id="plot">
+        <div class="row pb-5">
+            <div class="col-12 d-flex justify-content-center">
+                <h2 class="txt-main text-center">LE STAGIONI DI STRANGER THINGS</h2>
+            </div>
+        </div>
+        <div class="row pb-5 justify-content-between">
+            <div class="col-12 col-md-4 px-3">
+                <!-- CAROSELLO -->
+                <div id="ST-Carousel" class="carousel slide w-100">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./media/Season_1.jpg" class="d-block w-100 carousel-height" alt="copertina stagione 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./media/Season_2.jpg" class="d-block w-100 carousel-height" alt="copertina stagione 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./media/Season_3.jpg" class="d-block w-100 carousel-height" alt="copertina stagione 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./media/Season_4.jpg" class="d-block w-100 carousel-height" alt="copertina stagione 4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#ST-Carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#ST-Carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-md-7">
+                <!-- TRAMA -->
+                <div class="bg-blur d-flex flex-column justify-content-around px-5">
+                    <h3 class="txt-acc text-center display-5"> Trama Della Serie </h3>
+
+                    <p class="txt-mywhite text-start fs-4">Ambientata negli anni ottanta nella fittizia città di Hawkins, nell'Indiana, e in parte nel mondo del "Sottosopra", l'inizio della serie è incentrato sulla misteriosa sparizione di un bambino di nome Will e sulla comparsa di Undici, una bambina dai capelli rasati dotata di poteri telecinetici fuggita da un laboratorio segreto, l'Hawkins National Laboratory.</p>
+
+                    <p class="txt-mywhite text-end fs-4">Quasi tutti gli eventi che accadono nel corso della vicenda sono strettamente connessi al Sottosopra, un'oscura dimensione parallela al nostro mondo, popolata da creature mostruose.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SECTION CAROUSEL -->
+    
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-myblack">
+        <div class="row py-3">
+            <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <h6 class="txt-mywhite text-center pb-2">Follow us</h6>
+                <ul class="list-unstyled w-100 text-center d-flex justify-content-around">
+                    <a href="" class="socialLink"><li><i class="fa-brands fa-facebook"></i></li></a>
+                    <a href="" class="socialLink"><li><i class="fa-brands fa-instagram"></i></li></a>
+                    <a href="" class="socialLink"><li><i class="fa-brands fa-linkedin"></i></li></a>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <span class="txt-mywhite pe-3">Guarda la serie su</span>
+                <a href="">
+                    <img src="./media/netflixLogo.png" alt="logo di netflix" class="netflixLogo">
+                </a>
+            </div>
+            <div class="col-12 col-md-3 d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <img src="./media/footer-logo.png" alt="logo stranger things" class="STLogo">
+                </div>
+                <div>
+                    <i class="fa-regular fa-copyright txt-mywhite"></i><span class="txt-mywhite ps-2">All Rigths Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    
+    <!-- Fontawesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
